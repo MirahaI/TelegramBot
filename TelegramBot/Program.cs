@@ -57,7 +57,7 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
     var chatId = message.Chat.Id;
 
     Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
-
+    //Aboba
     Message message1;
     using (var video1 = System.IO.File.OpenRead("C:\\Users\\Admin\\Downloads\\VideoMn2O4.mp4"))
     {
